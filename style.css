@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Using a more modern and readable font */
+    background-image: url('bc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #4a4a4a; /* Softer, professional text color */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95); /* More opaque background for better readability */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* A more pronounced, professional shadow */
+    width: 100%;
+    max-width: 400px; /* Limiting the form width for a better feel */
+    box-sizing: border-box;
+}
+
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600; /* Bolder for emphasis */
+    margin-bottom: 5px; /* Reduced margin for a tighter design */
+    color: #333;
+}
+
+.login-form p {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 300; /* Lighter font-weight for subtitles */
+    color: #666;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px; /* Better padding for inputs */
+    margin: 8px 0; /* Consistent vertical spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Slightly more rounded corners */
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: all 0.3s ease; /* Smooth transition for focus effect */
+}
+
+input:focus {
+    outline: none;
+    border-color: #f9a825; /* Highlight with a brand color on focus */
+    box-shadow: 0 0 5px rgba(249, 168, 37, 0.5);
+}
+
+button {
+    padding: 12px;
+    background-color: #f9a825;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px; /* Space above the button */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+}
+
+button:hover {
+    background-color: #f57f17;
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+.login-form p:last-child {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-form p a {
+    color: #f9a825;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.login-form p a:hover {
+    color: #f57f17;
+    text-decoration: underline;
+}
